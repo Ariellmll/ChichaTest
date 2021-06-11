@@ -3,11 +3,13 @@
 namespace App;
 
 
-class Call
+class Call extends Mobile
 {
-	
-	function __construct()
+	function __construct(string $phoneNumber, $minutesInCall, $operator)
 	{
-		# code...
+		$this->phoneNumber = $phoneNumber;
+		$this->minutesInCall = $minutesInCall;
+		$this->operator = $operator;
 	}
+
 }

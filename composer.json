@@ -2,14 +2,12 @@
     "name": "chichocorp/codechallenge",
     "description": "Code challenge",
     "type": "project",
-    "authors": [
-        {
-            "name": "Job Wong",
-            "email": "jobwongdavila@outlook.com"
-        }
-    ],
+    "authors": [{
+        "name": "Ariel Cornejo",
+        "email": "ariel_co_11@hotmail.com"
+    }],
     "require": {
-        "mockery/mockery": "^1.4"
+        "twilio/sdk": "^6.24"
     },
     "autoload": {
         "psr-4": {
@@ -22,6 +20,7 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.2"
+        "phpunit/phpunit": "^9.2",
+        "mockery/mockery": "dev-master"
     }
 }
